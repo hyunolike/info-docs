@@ -53,3 +53,11 @@
 #### 서명
 - 해당 토큰이 조작되었거나 변경되지 않았음을 확인하는 용도
 - 헤더의 인코딩 값 + 정보의 인코딩 값 = 비밀키 사용해 해쉬값 생성 ✔
+
+---
+## 실습
+> [프로젝트 링크](https://github.com/Java-Techie-jt/spring-security-jwt-example)
+
+![image](https://user-images.githubusercontent.com/61215550/155466802-b31f2b36-4d48-49a1-950e-42cf5bde60a9.png)
+![image](https://user-images.githubusercontent.com/61215550/155467338-cf61fd26-7e04-4e89-92a8-9f699bce9f3a.png)
+

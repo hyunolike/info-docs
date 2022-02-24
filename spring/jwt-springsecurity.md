@@ -1,3 +1,6 @@
+# `Spring Security` = 인증, 인가 / `JWT` = 토큰기반이며 세션의 단점 해결
+
+
 - [참고 블로그](https://brunch.co.kr/@springboot/491)
 
 ### 1. `Spring Session`

@@ -24,7 +24,7 @@ SELECT EX_SEQ.CURRVAL FROM DUAL --해당 시퀀스 값 조회
 SELECT * FROM USER_SEQUENCES  --전체 시퀀스 조회
 ```
 
-### 2-3. 시퀀스 수정
+#### 2-3. 시퀀스 수정
 ```SQL
 --문법
 ALTER SEQUENCE [시퀀스명]

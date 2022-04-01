@@ -40,3 +40,19 @@ CACHE OR NOCACHE [캐시 설정 여부]
 --문법
 DROP SEQUENCE [시퀀스명]
 ```
+
+### 3. 사용 예시
+#### 3-1. 테스트 테이블 생성
+```SQL
+CREATE TABLE EX_TABLE (BOARD_NUM NUMBER(19,6) NOT NULL);
+```
+#### 3-2. 만들었던 EX_SEQ 시퀀스로 테스트 테이블에 데이터 넣는다.
+```SQL
+INSERT INTO EX_TABLE(BOARD_NUM) VALUES(EX_SEQ.NEXTVAL);
+INSERT INTO EX_TABLE(BOARD_NUM) VALUES(EX_SEQ.NEXTVAL);
+INSERT INTO EX_TABLE(BOARD_NUM) VALUES(EX_SEQ.NEXTVAL);
+```
+#### 3-3. 위에서 만든 테이블 데이터 확인
+```SQL
+SELECT * FROM EX_TABLE
+```

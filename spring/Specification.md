@@ -31,7 +31,7 @@ public class OrderSpecification {
     }
   }
 
-  public static Specification<Order> isOrderStatus(final String memberName) {
+  public static Specification<Order> isOrderStatus(final String memberName) { ⭐isOrderStatus()
     return new Specification<Order>() {
       public Predicate toPredicate(Root<Order> root, CriteriaQuery<?> query, CriteriaBuilder builder) {
         return builder.equal(root.get("status"), OrderStatus.ORDER);
@@ -44,7 +44,7 @@ public class OrderSpecification {
 #### 2-1. 명세 사용하기
 ```java
 public List<Order> findOrders(String name) {
-  List<Order> result = OrderRepository.findAll(where(memberName(name)).and(isOrderStatus())); ⭐ memberName()
+  List<Order> result = OrderRepository.findAll(where(memberName(name)).and(isOrderStatus())); ⭐ memberName() isOrderStatus()
   return result;
 }
 ```

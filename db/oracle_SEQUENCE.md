@@ -56,3 +56,20 @@ INSERT INTO EX_TABLE(BOARD_NUM) VALUES(EX_SEQ.NEXTVAL);
 ```SQL
 SELECT * FROM EX_TABLE
 ```
+
+### 4. 시퀀스 사용 예제
+```sql
+SELECT SEQ_SEQUENCE.NEXTVAL FROM DUAL;
+SELECT SEQ_SEQUENCE.CURRVAL FROM DUAL;
+```
+- `NEXTVAL`: 다음번호 조회
+- `CURRVAL`: 현재번호 조회
+
+#### 4-1. `MAX+1`
+```SQL
+SELECT NVL(MAX(SEQ)+1, 1) FROM EXAM_TABLE;
+```
+- `MAX+1` >> 코드블럭과 같이 간단하게 사용 가능
+- 차이점??
+  - `MAX+1`: 중복 사용 가능
+  - `시퀀스(Sequence)`: 중복 사용 불가

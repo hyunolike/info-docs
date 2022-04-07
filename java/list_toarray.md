@@ -1,4 +1,5 @@
 ## List의 `toArray()` 메서드 아리송한 코드??
+> [참고 자료](http://asuraiv.blogspot.com/2015/06/java-list-toarray.html)
 - 기본적으로 리스트를 배열로 바꿔주는 메서드!!
 
 ```java

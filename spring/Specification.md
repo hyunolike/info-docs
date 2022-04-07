@@ -68,3 +68,39 @@ public List<Order> findOrders(String name) {
 }
 ```
 
+#### 사용 예제
+```java
+public class ShippingBatchSpecification {
+
+    public static Specification<BatchInfoEntity> batchCondition(BatchInfoEntity item){ 
+        return new Specification<BatchInfoEntity>() {
+            @Nullable
+            @Override
+            public Predicate toPredicate(Root<BatchInfoEntity> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder cb) {
+                List<Predicate> predicates = new ArrayList<Predicate>();
+
+                if(!StringUtils.isEmpty(item.getSvcId())){
+                    predicates.add(cb.equal(root.get("productId"), item.getSvcId()));
+                }else{
+                    if(!item.getAspId().equals("ALL")){
+                        predicates.add(cb.equal(root.get("aspId"), item.getAspId()));
+                    }
+                }
+
+                if(!item.getTryReason().equals(TryReason.ALL)){
+                    predicates.add(cb.equal(root.get("tryReason"), item.getTryReason()));
+                }
+                if(!item.getRequestor().equals(TryRequestor.ALL)){
+                    predicates.add(cb.equal(root.get("requestor"), item.getRequestor()));
+                }
+
+                if(!StringUtils.isEmpty(item.getCardType())){
+                    predicates.add(cb.equal(root.get("cardType"), item.getCardType()));
+                }
+              //  criteriaQuery.distinct(true);
+                return cb.and(predicates.toArray(new Predicate[predicates.size()]));
+            }
+        };
+    }
+}
+```

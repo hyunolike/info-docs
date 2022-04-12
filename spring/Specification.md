@@ -107,6 +107,9 @@ public class ShippingBatchSpecification {
 
 ---
 ## 심화
+> [참고 자료](https://aljjabaegi.tistory.com/564)
+
+
 ### 단일 조건 조회
 ```java
 private Specification<Member> getSigleSpec(Map<String, Object> map){
@@ -130,3 +133,6 @@ private Specification<Member> getSigleSpec(Map<String, Object> map){
 - `like`문: `like(컬럼(변수), "%"+조건값+"%")`
 - 동등비교 경우: `equal(컬럼(변수), 조건값)`
 - between 경우: `between(칼럼(변수), start, end)`
+
+### 복수 조건 조회
+... 참조 자료 확인!

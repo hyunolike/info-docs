@@ -104,3 +104,29 @@ public class ShippingBatchSpecification {
     }
 }
 ```
+
+---
+## 심화
+### 단일 조건 조회
+```java
+private Specification<Member> getSigleSpec(Map<String, Object> map){
+	return new Specification<Member>(){
+		private static final long serialVersionUID = 1L;
+		
+		@Override
+		public Predicate toPredicate(Root<Member> root, CriteriaQuery<?> query, CriteriaBuilder cb){
+			Predicate p = cb.conjunction();
+			if(map.get("id") != null) p = cb.and(cb.like(root.get("id"), "%"+(String) map.get("id")+"%")); ⭐ like 문
+			if(map.get("name") != null) p = cb.and(cb.equal(root.get("useYn"), (String) map.get("userYn"))); ⭐ 동등 비교
+			if(map.get("regDtm") != null) p = cb.and(
+				cb.between(root.get("regDtm"), (String) map.get("regDtmSt"), (String) map.get("regDtmEd")) ⭐ between
+			);
+			return p;
+		}
+		};
+	}
+}
+```
+- `like`문: `like(컬럼(변수), "%"+조건값+"%")`
+- 동등비교 경우: `equal(컬럼(변수), 조건값)`
+- between 경우: `between(칼럼(변수), start, end)`

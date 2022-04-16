@@ -1,4 +1,4 @@
 # info-docs
-> Jane's information documentation
+> Hyunho's information documentation
 
 기술기록

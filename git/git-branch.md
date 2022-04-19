@@ -41,3 +41,6 @@
   - 1개월 이상의 긴 호흡으로 개발하여 주기적으로 배포, QA 및 테스트, hotfix 등 수행할 수 있는 여력이 있는 팀이라면 git-flow 적합
 - `Github-flow`
   - 수시로 릴리즈 되어야 할 필요가 있는 서비스를 지속적으로 테스트하고 배포하는 팀!
+  - 예시
+  - ![image](https://user-images.githubusercontent.com/61215550/163916008-1633dd1a-0d6c-4098-afe0-c6d885ec4d88.png)
+

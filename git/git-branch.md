@@ -31,7 +31,7 @@
 - `CI/CD` 자연스럽게 이뤄짐
 
 ### 2. `git-flow`
-![image](https://user-images.githubusercontent.com/61215550/163914350-1c952b32-019d-45c6-b4d6-f4b5eb8df1a9.png)
+![image](https://user-images.githubusercontent.com/61215550/163916994-923fd80c-e2ff-4f94-9f19-5e706d870297.png)
 - 5가지 브랜치 이용해서 저장소 운영하는 브랜치 전략
   - `master` `develop`: 메인 브랜치
   - `feature` `release` `hotfix`: 보조 브랜치(머지되면 사라져ㅠ,ㅠ)

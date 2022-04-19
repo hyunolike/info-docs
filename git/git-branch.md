@@ -1,11 +1,13 @@
 ## 깃 브랜치 전략
-> [참고 자료](https://hyeon9mak.github.io/git-branch-strategy/)
+> [참고 자료](https://hyeon9mak.github.io/git-branch-strategy/) <br>
+> [Git flow, GitHub flow, GitLab flow](https://ujuc.github.io/2015/12/16/git-flow-github-flow-gitlab-flow/)
 - 브랜치 전략: 여러 개발자가 하나의 저장소를 사용하는 환경에서 저장소를 효과적으로 활용하기 위한 `work-flow`
 - 브랜치의 생성, 삭제, 병합 등 git의 유연한 구조를 활용해서 각 개발자들의 혼란을 최대한 줄이며 다양한 방식으로 소스를 관리하는 역할
 - 브랜치 생성 규칙을 만들어 협업을 유연하게 하는 방법론
 - 크게 2가지 존재
   - `Github-flow` 간단하고 민첩
   - `git-flow` 복잡하지만 체계적!
+  - `Gitlab-flow` (추가)
 
 ### 1. `Github-flow`
 1. 브랜치 생성

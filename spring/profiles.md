@@ -7,5 +7,15 @@
   2. `spring.profiles.active` Property 지정(JVM 시스템 속성, 환경 변수)
   3. `web.xml` (tomcat) 
 
+## 스프링 프로파일 환경별로 빌드⭐
+> [참고 자료](https://emgc.tistory.com/130)
+### 환경별 프로파일 구분의 필요성
+- 일반적으로 프로파일은 resource폴더 아래에 가져다놓고 빌드 하게 되면 속해있던 모든 파일 jar에 포함
 
+### 프로파일 구분⭐
+- 크게 2가지
+  1. gradle에서 함께 빌드하고자 하는 프로파일만을 `jar`에 포함
+  2. 스프링에서 `jar`에 포함된 프로파일을 활성화하여 사용
+
+![image](https://user-images.githubusercontent.com/61215550/166390893-281c02ee-ca12-4062-94f2-5a249411f7a2.png)
 

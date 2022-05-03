@@ -55,3 +55,9 @@
 
 
 ![image](https://user-images.githubusercontent.com/61215550/166408749-e8436331-7cfa-4909-8414-30e5ed58e5c3.png)
+
+### 실제 로그 전략
+- 개발 > 콘솔만 출력되게끔
+- 운영 > 로그 파일만 생성되게끔
+- ![image](https://user-images.githubusercontent.com/61215550/166411164-b0852014-8e71-46b4-88fe-55900cb123b6.png)
+

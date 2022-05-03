@@ -49,6 +49,8 @@
 ```
 ### 생성 요약
 ![image](https://user-images.githubusercontent.com/61215550/166407037-bc10685d-05ea-426d-b4cd-0521ccf16dcb.png)
+- ⭐루트 레벨 설정 참고자료
+- ![image](https://user-images.githubusercontent.com/61215550/166418451-e8392740-6385-4c8b-b6f4-0d3afa7479ea.png)
 
 ### 로그 파일 생성 전략(참고한 거)
 > [참고 자료](https://github.com/Livenow14/slf4j-logback-lab/tree/springboot-logging/src/main/resources)

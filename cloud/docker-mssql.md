@@ -57,4 +57,6 @@ exec sp_addrolemember 'db_owner', <USER>;
 ---
 
 ### 9. 접속 확인 😁
-- ![image](https://user-images.githubusercontent.com/61215550/167047862-e95517c6-2ee4-4c04-9455-2139d6856724.png)
+> 여기서 sa 기본 로그인으로 해야지 테이블 수정 및 생성 모두 가능해짐!! ⭐
+- ![image](https://user-images.githubusercontent.com/61215550/167052798-755cd3cc-bd18-40d4-ae16-3597d60e8d96.png)
+

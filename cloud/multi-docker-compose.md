@@ -10,3 +10,7 @@
 
 3. 끝 ㅋㅋㅋㅋㅋㅋ간단
 
+### Docker Compose 커멘드 사용법
+> [참고 자료](https://www.daleseo.com/docker-compose/)
+- `-f`
+  - 기본적으로 커맨드가 실행하는 디렉토리에 있는 `docker-compose.yml` / `docker-compose.yml` 를 설정파일로 사용

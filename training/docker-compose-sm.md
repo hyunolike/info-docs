@@ -6,6 +6,8 @@
 ![image](https://user-images.githubusercontent.com/61215550/167562988-d64cad1d-5837-4aea-a676-ec4436905638.png)
 
 ### 3. 주요 코드
+- 도커 컴포즈 실행
+  - `docker-compose -f ./docker-compose/docker-compose_server.yml -f ./docker-compose/docker-compse_mssql.yml -f ./docker-compose/docker-compose_sftp.yml up`
 - `docker-compose_server.yml`
 ```yml
 version: "3.8"

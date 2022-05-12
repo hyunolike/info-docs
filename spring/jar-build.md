@@ -21,12 +21,12 @@ bootJar {
 - `java -jar [파일명]`
 - `./gradlew bootRun`
 
-### `bootJar` vs `jar` | 2개 명령어 빌드 차이
+### ✔ `bootJar` vs `jar` | 2개 명령어 빌드 차이
 > [참고 자료](https://earth-95.tistory.com/132#BootJar%EC%--%--%--%EC%-D%--%ED%--%B-%--%EC%--%-D%EC%--%B-%EB%--%-C%--jar%EC%--%--%--Jar%EC%--%--%--%EC%-D%--%ED%--%B-%--%EC%--%-D%EC%--%B-%EB%--%-C%--jar%EB%-A%--%--%EB%AC%B-%EC%--%--%EC%-D%B-%--%EB%-B%A-%EB%A-%BC%EA%B-%-C%-F)
 - `bootJar`: `executable.jar(실행 가능한 jar)` 실행 바로 가능
 - `jar`: 기본 `Manifest` 속성이 없다는 오류와 함께 실행되지 않음 ㅠ,ㅠ
 
-#### `Jar`에 의해 생성된 jar
+#### ✔ `Jar`에 의해 생성된 jar
 - `Jar`에 의해 생성된 jar >> `plain archive` 
   - 어플리케이션 실행에 필요한 모든 의존성을 포함하지 않고 소스코드의 클래스 파일과 리소스 파일만 포함
   - ⭐ 의존성을 제대로 포함하고 있지 않기 때문에 `java -jar` 명령어로 실행되지 않음 ㅠ,ㅠ

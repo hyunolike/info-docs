@@ -8,3 +8,6 @@
 3. 빌드 전 수행 할 내용 설정  ✔ `Pipeline`
 4. 빌드 설정 
 5. 빌드 후 조치 내용 설정
+
+### 구조 예시
+- ![image](https://user-images.githubusercontent.com/61215550/168242335-ca7b1243-6bab-49d9-a799-ccaad54d9000.png)

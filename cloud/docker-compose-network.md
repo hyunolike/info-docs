@@ -23,3 +23,10 @@ services:
 - 미리 생성해놓은 다른 네트워크 사용 가능
 - ✔ 외부 네트워크 잘 활용되면 서로 다른 Docker Compose에서 돌아가고 있는 컨테이너 간에도 연결 가능해짐!
 - ![image](https://user-images.githubusercontent.com/61215550/167339812-55a75f05-675b-42cc-9f48-74ab1bc2e65b.png)
+
+```yml
+networks:
+  default:
+    external:
+      name: our_net ✔ 미래 생성해야되는 전제조건
+```

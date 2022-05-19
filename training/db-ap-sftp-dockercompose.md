@@ -50,13 +50,10 @@ services:
       - ../build/libs:/app
       - d:\sftp\admin:/file
     entrypoint: ["java", "-jar", "/app/spring-docker-0.0.1-SNAPSHOT.jar"]
-    depends_on:
-      - mssql_db
-    links:
-      - mssql_db
-      - sftp
     networks:
       - test-network
+    environment:
+      TZ: Asia/Seoul
 
 
 networks:

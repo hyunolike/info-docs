@@ -20,3 +20,13 @@ CREATE SEQUENCE [schema_name . ] sequence_name
   - 시작 값이 아니라 최솟값 또는 최댓값에서 다시 시작
 - CACHE | <constant> | NO CYCLE
   - 기본값 >> CACHE
+
+---
+## ✔ 추가
+- 시퀀스 >> 사용자 별 권한을 사용 여부 나뉘게됨
+- 아래는 시퀀스 권한 확인 쿼리
+```sql
+GRANT CREATE SEQUENCE ON SCHEMA::seq TO SequenceCreator  
+GO
+```
+   

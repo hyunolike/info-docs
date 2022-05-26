@@ -1,0 +1,22 @@
+## `MSSQL` SEQUENCE
+> [공식 문서](https://docs.microsoft.com/ko-kr/sql/t-sql/statements/create-sequence-transact-sql?view=sql-server-ver16)
+- 실무에서 자주 사용
+
+```SQL
+CREATE SEQUENCE [schema_name . ] sequence_name  
+    [ AS [ built_in_integer_type | user-defined_integer_type ] ]  
+    [ START WITH <constant> ]  
+    [ INCREMENT BY <constant> ]  
+    [ { MINVALUE [ <constant> ] } | { NO MINVALUE } ]  
+    [ { MAXVALUE [ <constant> ] } | { NO MAXVALUE } ]  
+    [ CYCLE | { NO CYCLE } ]  
+    [ { CACHE [ <constant> ] } | { NO CACHE } ]  
+    [ ; ]  
+```
+
+### 인수
+- CYCLE | NO CYCLE
+  - 새 시퀀스 개체의 기본 순환 옵션 >> `NO CYCLE`
+  - 시작 값이 아니라 최솟값 또는 최댓값에서 다시 시작
+- CACHE | <constant> | NO CYCLE
+  - 기본값 >> CACHE

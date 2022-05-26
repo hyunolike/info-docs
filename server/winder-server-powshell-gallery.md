@@ -1,6 +1,7 @@
 ## `PowerShell` 갤러리 - 윈도우 서버쪽 도커 설치를 위한 개념 정리 ✌
 > [공식 자료](https://docs.microsoft.com/ko-kr/powershell/scripting/gallery/getting-started?view=powershell-7.2)
-> [PowerShell Gallery 공식](https://www.powershellgallery.com/)
+> [PowerShell Gallery 공식](https://www.powershellgallery.com/) 📌
+> [PowerShell 공식 문서](https://docs.microsoft.com/en-us/powershell/?view=powershell-7.2) 📌
 
 ![image](https://user-images.githubusercontent.com/61215550/170388063-ee1e6cbc-1e0f-458a-924c-4f7480c4d9d5.png)
 

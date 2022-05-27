@@ -25,8 +25,30 @@ CREATE SEQUENCE [schema_name . ] sequence_name
 ## ✔ 추가
 - 시퀀스 >> 사용자 별 권한을 사용 여부 나뉘게됨
 - 아래는 시퀀스 권한 확인 쿼리
+    
+
 ```sql
 GRANT CREATE SEQUENCE ON SCHEMA::seq TO SequenceCreator  
 GO
 ```
+
+### 1. 시퀀스 다시 시작
+```SQL
+ALTER SEQUENCE Test.CountBy1 RESTART WITH 1 ;  -- 시퀀스 초기화
+SELECT NEXT VALUE FOR Test.CountBy1; -- 시퀀스 증가
+```
+    
+### 2. 시퀀스 변경
+```SQL
+ALTER SEQUENCE Test. TestSeq  
+    RESTART WITH 100  
+    INCREMENT BY 50  
+    MINVALUE 50  
+    MAXVALUE 200  
+    NO CYCLE  
+    NO CACHE  
+;  
+GO  
+```
+    
    

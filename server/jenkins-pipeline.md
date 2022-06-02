@@ -1,4 +1,5 @@
 ## Jenkins pipeline 문법 
+> [참고 자료](https://zwischenzugs.com/2017/04/23/things-i-wish-i-knew-before-using-jenkins-pipelines/)
 - 요약
   - 파이프라인 선언
   - 섹션 `Sections`

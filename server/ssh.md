@@ -20,3 +20,6 @@
 - `SSH Windows Client` >> 설치해야돼...ㅎ
   - `putty`
   - `filezila`
+
+## `WinSCP` ✔
+- Window용 널리 사용되는 파일 전송 클라이언트

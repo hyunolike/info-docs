@@ -16,4 +16,5 @@
 - 유닉스 운영체제에서 SSH Server로 가장 많이 사용하는 것 `OpenSSH`
   - 맥은 기본적으로 설치 / 리눅스는 별도 설치 필요
 
-
+### 참고 자료 
+- [윈도우 10`SSH Server` 설정해서 .pub 등록하는 자료](https://www.youtube.com/watch?v=Wx7WPDnwcDg)

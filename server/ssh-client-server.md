@@ -1,4 +1,5 @@
 ## `SSH` client vs server 
+> `SSH`: 명령어 방식으로 컴퓨터를 원격지에서 제어하는 방식 ⭐
 - ssh >> client + server 구성
 - ssh 프로토콜 이용해 클라이언트가 명령내리고 서버가 명령받아 컴퓨터 제어
 ### 제어의 주체 `SSH Client`

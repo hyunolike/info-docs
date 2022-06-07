@@ -1,5 +1,5 @@
 ## 방화벽 확인 `telnet`
-> [참고 자료](https://uutopia.tistory.com/4)
+> [참고 자료](https://uutopia.tistory.com/4) <BR>✔ `PING` 대신 `telnet` 사용하자!!(네트워크 공격의 위험성) ㅠ,ㅠ
 - 실무에서의 방화벽
   - 송신서버 `OUTBOUND`
   - 수신서버 `INBOUND`

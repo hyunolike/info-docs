@@ -1,4 +1,6 @@
 ## `Spring Boot` + `Chatting Server`
+- [참고 자료1](https://daddyprogrammer.org/post/4077/spring-websocket-chatting/)
+- [참고 자료2](https://brunch.co.kr/@springboot/695)
 - 크게 2가지 경우
   - Web Socket Server 1개인 경우(`Spring WebSocket`)
   - Web Socket Server 2개인 경우(`STOMP` `Redis Pub/Sub` `세션정보를 아는 또다른 서버 구축`)

@@ -1,0 +1,47 @@
+## 파일 권한 설정 - `chmod`
+- 파일 권한에 따라 읽기, 쓰기, 실행 가능
+- 권한 그룹: `User` `Group` `Other` 3개 존재
+- 권한 설정 모드: `기호 모드` `숫자 모드`
+### 1. 기호 모드(문자열 모드)
+- `chmod 옵션 (reference) (operator) (modes) 파일` ✔
+- 사용 영문자
+
+|영문자|설명|
+|------|-----|
+|`u`|소유자|
+|`g`|소유자 그룹|
+|`o`|기타사용자|
+|`a`|`u,g,o` 모두|
+
+- 예시
+  - `chmod go+w file1`
+  - `g` `o`에게 쓰기 권한 부여
+
+- reference(대상)
+  - u: user의 권한(사용자의 권한)
+  - g: group의 권한(파일의 group 멤버인 사용자의 권한)
+  - o: other의 권한(user, group의 멤버가 아닌 사용자의 권한)
+  - a: all의 권한(위의 셋을 포함하는 모든 사용자의 권한)
+- operator
+  - `+`: 해당 권한 추가
+  - `-`: 해당 권한 제거
+  - `=`: 해당 권한을 설정한데로 변경
+- modes
+  - `r`: read 권한
+  - `w`: write 권한
+  - `x`: excute 권한(실행)
+  - `-`: 사용권한 없음
+
+
+sudo chown -R kt_cloud:konadmin /home/kt_cloud 
+sudo chmod -R 775 /home/kt_cloud
+sudo chown kt_cloud:konadmin /home/kt_cloud/{.,.ssh/,.ssh/authorized_keys}
+sudo chmod u+rwX,go-rwX,-t /home/kt_cloud/{.ssh/,.ssh/authorized_keys}
+sudo chmod go-w /home/kt_cloud/
+
+### 2. 8진법 수 모드
+- `chmod 옵션 (8진법 수) 파일` ✔
+- ... 
+
+### 3. (추가 내용) 옵션 ⭐
+- `-R`: 권한을 폴더의 하위 경로에도 모두 적용 

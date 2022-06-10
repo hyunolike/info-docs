@@ -32,13 +32,6 @@
   - `x`: excute 권한(실행)
   - `-`: 사용권한 없음
 
-
-sudo chown -R kt_cloud:konadmin /home/kt_cloud 
-sudo chmod -R 775 /home/kt_cloud
-sudo chown kt_cloud:konadmin /home/kt_cloud/{.,.ssh/,.ssh/authorized_keys}
-sudo chmod u+rwX,go-rwX,-t /home/kt_cloud/{.ssh/,.ssh/authorized_keys}
-sudo chmod go-w /home/kt_cloud/
-
 ### 2. 8진법 수 모드
 - `chmod 옵션 (8진법 수) 파일` ✔
 - ... 

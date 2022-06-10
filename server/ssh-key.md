@@ -13,3 +13,10 @@
   - Window: `SSH Client` 프로그램 내 자체적으로 제공하는 키 생성 프로그램
 - 키 추가
   - SSH Server 내 `authorized_keys` 파일 추가(공개키)
+
+
+|파일명|설명|
+|------|-----|
+|`id_rsa`|private key, 절대로 타인에게 노출되면 안된다|
+|`id_rsa.pub`|public key, 접속하려는 원격 서버의 `authorized_keys`에 입력|
+|`authorized_keys`|원격 서버의 `.ssh` 디렉토리 아래에 위치하면서 id_rsa.pub 키의 값 저장|

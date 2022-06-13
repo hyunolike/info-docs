@@ -1,5 +1,6 @@
 ## Cookie Session Token
-> [참고 자료](https://tofusand-dev.tistory.com/89)
+> [참고 자료](https://tofusand-dev.tistory.com/89) <br> 
+> [JWT & Spring Security](https://brunch.co.kr/@springboot/491)
 - 인증 방식 크게 3가지 
   - 계정 정보를 요청 Header에 넣는 방식 >> 절대 이렇게 해서는 안됨! ❌
   - Session/Cookie 방식

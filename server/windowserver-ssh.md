@@ -58,4 +58,4 @@ Get-Acl “$env:ProgramData\ssh\ssh_host_dsa_key” | Set-Acl $authorizedKeyFile
 - `ssh-keygen` 명령 실행시켜 SSH 키 쌍 생성
 - `C:\Users\[사용자]\.ssh` >> public-key 파일의 이름 `authorized_keys` 로 변경 ⭐
 ### 3. `authorized_key` 파일 권한 설정 
-- 
+- ...

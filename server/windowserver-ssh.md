@@ -1,5 +1,6 @@
 ## 윈도우 서버 `SSH Server` 설정
-> [참고 자료](https://cloudeveloper.net/windows-10-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C-ssh-%EC%84%9C%EB%B2%84-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-64988d87349)
+> [참고 자료](https://cloudeveloper.net/windows-10-%EB%84%A4%EC%9D%B4%ED%8B%B0%EB%B8%8C-%EB%B0%A9%EC%8B%9D%EC%9C%BC%EB%A1%9C-ssh-%EC%84%9C%EB%B2%84-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-64988d87349) <BR> 
+> [참고 자료 - KEY 공유 인증 방식](https://www.server-world.info/en/note?os=Windows_Server_2016&p=openssh&f=3)
 
 ### 설치 순서
 1. `OpenSSH` 설치
@@ -44,3 +45,17 @@ Get-Acl “$env:ProgramData\ssh\ssh_host_dsa_key” | Set-Acl $authorizedKeyFile
 ```
 
 ... 나머지 내용은 위 링크 참고
+
+---
+## `OpenSSH` 키 공유 인증 방식 요약 - 📌 개인 사용자의 public key 공유 방법
+### 1. OpenSSH 기본 설정 
+- `authorized_keys` 는 OpenSSH의 기본 위치가 아님
+  - `Administrators` 그룹만 구성되어 있어 __✔모든 사용자__ 의 기본 위치에 설정하기 위해 아래 2개의 줄 주석 처리!
+  - ![image](https://user-images.githubusercontent.com/61215550/173711660-90e64d4e-7593-4616-b098-0c18be957f21.png)
+
+### 2. SSH 키 쌍 설정하려는 유저(사용자) 설정
+- 해당 사용자로 로그인 한 후
+- `ssh-keygen` 명령 실행시켜 SSH 키 쌍 생성
+- `C:\Users\[사용자]\.ssh` >> public-key 파일의 이름 `authorized_keys` 로 변경 ⭐
+### 3. `authorized_key` 파일 권한 설정 
+- 

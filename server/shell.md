@@ -18,3 +18,4 @@
   - `shell`: 커널에 명령을 전달하는 프로그램
   - `shell programing`: 쉘에 직접 명령어 날리는 것
 
+- ![image](https://user-images.githubusercontent.com/61215550/173987426-6b16e75f-f092-4e60-9fb0-f97db5d3eacc.png)

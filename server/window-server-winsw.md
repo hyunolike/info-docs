@@ -37,3 +37,6 @@
 > D:\HRHub>HRHub.exe uninstall
 2020-10-30 17:17:44,627 INFO  - Uninstalling the service with id 'HRHubWebService'
 ```
+
+### 3. 설정 키워드 설명 
+> [참고 자료](https://choihyecho.tistory.com/9)

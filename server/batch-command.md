@@ -1,5 +1,6 @@
-## 배치 파일 / 도스 명령어
-> [참고 자료](https://m.blog.naver.com/novajini/220158416308)
+## 배치 파일(일괄처리용 파일) / 도스 명령어
+> [참고 자료](https://m.blog.naver.com/novajini/220158416308) <BR>
+> [참고 자료 - 배치 파일](http://www.dreamy.pe.kr/zbxe/CodeClip/6383)
 - ✔ 도스 상태에서 지원되는 기본적인 배치 명령어
 
 ### 1. 핵심 배치 파일 명령어

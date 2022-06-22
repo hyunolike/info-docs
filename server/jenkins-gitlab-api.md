@@ -31,3 +31,24 @@ class test {
     }
 }
 ```
+
+### 2. `Extended Choice Parameter Plugin` 이용해 그루브 스크립트 작성
+```groovy
+import groovy.json.JsonSlurper
+
+List<String> artifacts = new ArrayList<String>()
+def artifactsUrl = "http://10.10.10.41:8001/api/v4/projects/31/repository/tags"
+def artifactsObjectRaw = ["curl", "--request", "GET", "--header", "PRIVATE-TOKEN: 1234", "${artifactsUrl}"].execute().text
+
+def jsonSlurper = new JsonSlurper()
+def artifactsJsonObject = jsonSlurper.parseText(artifactsObjectRaw)
+def dataArray = artifactsJsonObject.name
+
+for(item in dataArray){
+    artifacts.add(item)
+}
+return artifacts.sort() ⭐
+```
+- 결과 화면
+  - ![image](https://user-images.githubusercontent.com/61215550/174943433-6c22892b-5c37-4a72-9dbe-2df2351217fd.png)
+

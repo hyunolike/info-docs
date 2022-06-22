@@ -60,3 +60,6 @@ return artifacts.sort() ⭐
 ```groovy
 checkout([$class: 'GitSCM', branches: [[name: 'refs/tags/${buildNumber}']], extensions: [], userRemoteConfigs: [[credentialsId: 'root', url: GIT_URL]]])
 ```
+### 4. 로직
+![image](https://user-images.githubusercontent.com/61215550/174952302-e7d4a513-389c-40fd-b3c7-c4c6e8b7742a.png)
+

@@ -11,7 +11,7 @@ import groovy.json.JsonSlurper
 class test {
     static void main(String[] args) {
         List<String> artifacts = new ArrayList<String>()
-        def artifactsUrl = "http://10.10.10.41:8001/api/v4/projects/31/repository/tags"
+        def artifactsUrl = "http://10.10.10.41:8001/api/v4/projects/31/repository/tags" 
         def artifactsObjectRaw = ["curl", "--request", "GET", "--header", "PRIVATE-TOKEN: 1234", "${artifactsUrl}"].execute().text
 
         printf('------------------')
@@ -20,7 +20,7 @@ class test {
 
         def jsonSlurper = new JsonSlurper()
         def artifactsJsonObject = jsonSlurper.parseText(artifactsObjectRaw)
-        def dataArray = artifactsJsonObject.name
+        def dataArray = artifactsJsonObject.name ⭐ 해당 json 구조에 맞게 작성 ex. name.age.[키워드] 
 
         for(item in dataArray){
             artifacts.add(item)

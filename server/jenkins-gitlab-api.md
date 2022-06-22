@@ -52,3 +52,11 @@ return artifacts.sort() ⭐
 - 결과 화면
   - ![image](https://user-images.githubusercontent.com/61215550/174943433-6c22892b-5c37-4a72-9dbe-2df2351217fd.png)
 
+3. 이제 해당 선택한 태그만을 가져와서 깃 소스코드를 가져오자
+> [참고 자료](https://www.jenkins.io/doc/pipeline/steps/workflow-scm-step/#checkout-check-out-from-version-control)
+- ⭐ `refs/tags/${buildNumber}` >> 해당 태그의 커밋을 가져오는 것!
+- ![image](https://user-images.githubusercontent.com/61215550/174949737-ac944140-cc82-4b84-b0bc-5855193dd27c.png)
+
+```groovy
+checkout([$class: 'GitSCM', branches: [[name: 'refs/tags/${buildNumber}']], extensions: [], userRemoteConfigs: [[credentialsId: 'root', url: GIT_URL]]])
+```

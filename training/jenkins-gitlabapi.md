@@ -12,7 +12,7 @@
 ```groovy
 import groovy.json.JsonSlurperClassic
 
-def artifactsUrl = "http://10.10.10.41:8001/api/v4/projects/31/repository/tags/${buildNumber}"
+def artifactsUrl = "http://[설치된 깃랩 ip]:[포트]/api/v4/projects/31/repository/tags/${buildNumber}"
 def artifactsObjectRaw = ["curl", "--request", "GET", "--header", "PRIVATE-TOKEN: HugPzjfsCx1pD6Y_Myo8", "${artifactsUrl}"].execute().text
 
 @NonCPS ⭐직렬화 관련 - 함수에서만 안전 >> 해당 어노테이션이 존재하지 않아도 정상 작동 그래도 달아놓자
@@ -57,7 +57,7 @@ pipeline {
 ```groovy
 import groovy.json.JsonSlurperClassic
 
-def artifactsUrl = "http://10.10.10.41:8001/api/v4/projects/31/repository/tags/${buildNumber}"
+def artifactsUrl = "http://[설치된 깃랩 ip]:[포트]/api/v4/projects/31/repository/tags/${buildNumber}"
 def artifactsObjectRaw = ["curl", "--request", "GET", "--header", "PRIVATE-TOKEN: HugPzjfsCx1pD6Y_Myo8", "${artifactsUrl}"].execute().text
 
 @NonCPS ⭐직렬화 관련 - 함수에서만 안전 >> 해당 어노테이션이 존재하지 않아도 정상 작동 그래도 달아놓자

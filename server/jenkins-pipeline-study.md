@@ -54,3 +54,11 @@ node {
 }
 ```
 
+### 2. 2가지 작성 유형 차이
+- ✔ Jenkins Pipeline >> Groovy 기반 / Jenkins Pipeline의 구현자 >> Groovy - Scripted Pipeline DSL
+- 2가지 모두 동일한 파이프라인 하위 시스템
+- `Declarative`
+  - 더 간단하고 더 독단적인 구문 제공
+  - 보다 엄격하고 미리 정의된 구조로 사용자의 사용 제한 >> 더 간단한 연속 전달 파이프라인
+- `Scripted`
+  - 요구사항이 더 복잡한 사용자에게 이상적인 선택

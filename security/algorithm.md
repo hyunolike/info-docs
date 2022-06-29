@@ -1,5 +1,6 @@
 ## 암호화 알고리즘
 > [참고 자료](https://alexonepath.github.io/category/etc/etc-crypto.html)
+- ![image](https://user-images.githubusercontent.com/61215550/176381929-8f7a0743-de4f-41d1-86bd-b72bcb3bd0a1.png)
 
 ### 1. 정의
 |용어|설명|
@@ -9,6 +10,8 @@
 |암호화 `Encryption`|평문 --> 암호문으로 변환하는 과정|
 |복호화 `Decryption`|암호문 --> 평문으로 변환하는 과정|
 |전자서명|- __송신자__ 의 Private Key로 메시지를 서명하여 전달<br>- __수신측__ 에서는 송신자의 Public Key를 이용해 서명값 검증|
+|양방향 암호화|암호화와 복호화 과정을 통해 송수신간 주고받는 메시지를 안전하게 암,복호화 하는 과정|
+|단방향 암호화|해싱(`Hashing`)을 이용한 암호화 방식으로 양방향과는 다른 개념 / 평문을 암호문으로 암호화 가능하지만 암호문을 평문으로 복호화 불가|
 
 ### 2. 대칭키 & 비대칭키(공개키) 암호화
 - 대칭키 암호화
@@ -37,4 +40,3 @@
   - `ECDH(Elliptic Curve Diff-Hellman)`: 키 교환 알고리즘(자신의 Private Key와 상대방의 Public Key를 사용해 공통된 `Secret` 키 도출)
   - `ECIES(Elliptic Curve Integrated Encryption scheme)`: 통합 암호화 방식(Public Key로 암호화하고 Private 복호화)
   
- 

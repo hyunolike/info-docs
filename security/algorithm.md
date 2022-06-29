@@ -1,5 +1,6 @@
 ## 암호화 알고리즘
-> [참고 자료](https://alexonepath.github.io/category/etc/etc-crypto.html)
+> [참고 자료](https://alexonepath.github.io/category/etc/etc-crypto.html) <br>
+> [참고 자료 추가](https://velog.io/@inyong_pang/Programming-%EC%95%94%ED%98%B8%ED%99%94-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A2%85%EB%A5%98%EC%99%80-%EB%B6%84%EB%A5%98)
 - ![image](https://user-images.githubusercontent.com/61215550/176381929-8f7a0743-de4f-41d1-86bd-b72bcb3bd0a1.png)
 
 ### 1. 정의

@@ -18,3 +18,4 @@
   - H와 G 안다면 개인 키 d를 찾는 것 어렵다
 - 사용자 A: 개인키 + B의 공개키 ✔ 공통된 시크릿 키 도출
 - 사용자 B: 개인키 + A의 공개키 ✔ 공통된 시크릿 키 도출
+- [추가 설명 참고 링크](https://github.com/hyunolike/info-docs/blob/main/security/algorithm.md)

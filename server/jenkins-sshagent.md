@@ -6,7 +6,7 @@
   3. Jenkins에 ssh 인증 정보 등록
   4. pipeline에서 ssh 사용
 
-### 2. SSH 인증서 생성
+### 2. SSH 인증서 생성 ⭐
 - `ssh-keygen -t rsa -f [경로/파일명]`
 
 ### 3. Jenkins에 ssh 인증 정보 등록

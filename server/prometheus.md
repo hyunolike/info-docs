@@ -58,6 +58,16 @@
 - `PULL` 방식 구조 / 모든 메트릭의 정보를 중앙 서버로 보내지 않아도 됨
   - 대부분의 모니터링 구조 `PUSH` 방식 >> 각 타겟 서버에서 부하 걸릴 경우 PUSH 방식은 fail point 
 - Kubernetes 환경에서 설치 간단 / grafana와의 연동을 통한 운영 쉬움
-- 다양한 metric
-- 
+- 다양한 metric exporter 제공
+  - Linux, Window등의 OS metric 뿐 아니라 각종 `Third-party`의 exporter 제공
+- 장기간 데이터 유지 및 확인
+  - 데이터 저장소 `시계열 데이터` 구성 >> 많은 양의 정보 빠르게 검색 가능
 #### 3.2 단점
+- ![image](https://user-images.githubusercontent.com/61215550/176815391-59aaf87d-b02a-49c7-84eb-899bb24bc741.png)
+- 위 그림이 공식적으로 지원하는 다중화 방식 (`Clustering` 과 거리가 멈)
+  1. 각 Region에 프로메테우스 배치 
+  2. 이를 Master에 Aggregate하는 방식
+- 싱글 호스트 아키텍처 >> 저장용량 부족하면 >> 디스크 용량 늘리는 것뿐!
+- 프로메테우스 서버 다운, 설정 변경 등을 위해서 재시작 할 경우 >> 그간 metric 유실 
+- 일정 풀링 주기 기반으로 metric 가져옴 >> 풀링 순간 스냅샷 정보만 알 수 있음
+  - 스냅샷의 연속된 모음이기 때문에 근사값의 형태

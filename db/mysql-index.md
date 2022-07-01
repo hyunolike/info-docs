@@ -26,7 +26,7 @@ SELECT * FROM indextestdb.indexTBL WHERE frist_name = 'Mary';
 ```
 - ![image](https://user-images.githubusercontent.com/61215550/176818383-6b95d088-da33-4749-9f3f-79c3c7f12384.png)
 - 전체 테이블 조회 ㅠ,ㅠ 시간도 오래...
-
+- 심지어 테이블 전체 다 조회...ㅎ
 #### 1.3 인덱스 O 특정 이름 조회 (인덱스 생성)
 ```sql
 CREATE INDEX idx_indexTBL_firstname ON indextestdb.indexTBL(frist_name);
@@ -35,3 +35,4 @@ SELECT * FROM indextestdb.indexTBL WHERE frist_name = 'Mary';
 ```
 - ![image](https://user-images.githubusercontent.com/61215550/176818945-9912c645-8f06-49bd-920b-09717dae1c9a.png)
 - 속도가 어마무시하다 빠르다는 말
+- 인덱스 부분만 조회

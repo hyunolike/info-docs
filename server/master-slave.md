@@ -8,5 +8,5 @@
   - master 서버로부터 __복제된 데이터__ 받아 어시스트 같은 느낌 각종 기타 요청들 대응
 - ![image](https://user-images.githubusercontent.com/61215550/176822598-afa8c8c0-8c6c-49a7-8e94-74c27354c99b.png)
 
-### 복제 지연
+### 복제 지연 해별 방법 ✔
 ![image](https://user-images.githubusercontent.com/61215550/176823502-0a2b787d-cb96-43c4-84b3-8eddedadda4b.png)

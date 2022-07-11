@@ -12,3 +12,10 @@
 
 ### 프로토타입은 읽기 전용
 - 수정할 때는 직접 객체로 ~
+
+### `this` 가 나타내는 것
+- `this` >> 프로토타입에 영향 없다
+- ![image](https://user-images.githubusercontent.com/61215550/178186744-dc0132b1-8d9d-41e1-b666-964c35ecec54.png)
+
+### `for-in` 반복문
+- 상속 프로퍼티 >> 순회대상 포함!

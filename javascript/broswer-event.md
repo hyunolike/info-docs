@@ -1,4 +1,5 @@
 ## 브라우저 이벤트
+> [참고자료](https://ko.javascript.info/introduction-browser-events)
 ### 1. 이벤트 핸들러
 - 이벤트 발생했을 때 실행할 함수 >> 핸들러
 #### 1.1 HTML 속성

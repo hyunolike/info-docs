@@ -44,7 +44,7 @@ button.onclick = sayThanks();
 #### 1.7 객체 형태의 핸들러와 handleEvent
 - ...
 
-### 2. 요약
-1. HTML 속성
-2. DOM 프로퍼티
-3. 메서드
+### 2. 요약 ⭐
+1. HTML 속성 `onclick="..."`
+2. DOM 프로퍼티 `elem.onclick = function`
+3. 메서드 >> `elem.addEventListener(event, handler[, phase])` 핸들러 추가 / `removeEventListener` 핸들러 제거

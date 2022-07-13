@@ -23,3 +23,9 @@
 - 페이지 소유권 온전히 프런트엔드에 존재하게 됨 ✔
 - ![image](https://user-images.githubusercontent.com/61215550/178627057-2a231c4e-9442-4d29-a92b-6082f61f5010.png)
 #### 3.3 SSR 아키텍처 구성시 다른 여러 가지 대안을 활용할 수 있는 토대
+
+### 3. 롤백 플랜 ✔
+> [참고자료](https://d2.naver.com/helloworld/2177909)
+1. 사용자 부하를 받지 못하거나 장애가 발생하는 경우 CSR 페이지 노출
+2. CSR 페이지가 장애가 발생한 경우 프런트엔드 전환 전 페이지 노출
+- ![image](https://user-images.githubusercontent.com/61215550/178627999-df8bd6e7-d065-40fa-88bc-dd903ac3e863.png)

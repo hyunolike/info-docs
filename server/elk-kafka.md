@@ -1,6 +1,8 @@
 ## ELK Stack + Kfaka
 > [참고자료](https://pearlluck.tistory.com/583) <br>
 > [참고자료](https://elastic-stack.readthedocs.io/en/latest/e2e_kafkapractices.html)
+
+
 ![image](https://user-images.githubusercontent.com/61215550/178900123-a36ce213-07da-4467-ade3-ce7688f90bf1.png)
 
 ### 1. 왜 사용하지?
@@ -14,7 +16,7 @@
 - ![image](https://user-images.githubusercontent.com/61215550/178898525-8c0d8687-4503-4ac7-af30-a8b8f3a63709.png)
 - 로그 데이터 검색 및 분석하는 도구
  - ✔ 계속 쌓이는 웹로그 어떻게 __저장???__ 어떻게 **검색???** **분석???** 
-#### 2.1 ElasticSearch
+#### 2.1 ElasticSearch - 데이터 검색 및 분석을 담당하는 엔진
 - 분산형 검색엔진
   - Apache Lucene기반으로 구축되어 있어서 **분산형 및 개방형** 특징
   - JAVA로 개발
@@ -26,12 +28,12 @@
   - 데이터 중심부에 저장하여 예상되는 항목 검색 + 예상치 못한 항목 밝혀냄
   - 정형, 비정형, 위치정보, 매트릭 등 원하는 방법으로 다양한 유형의 검색 수행 및 결합 가능
   - 표준 Restful API + JSON 사용
-#### 2.2 Logstash
+#### 2.2 Logstash - 데이터 수집/변환 Elasticsearch 전송(데이터 수집 파이프라인)
 - 데이터수집엔진
   - 오픈소스 서버측 데이터처리 파이프라인
   - JAVA Runtime 가상머신 위에서 돌아감
   - 출력API  ElasticSearch 지원 시작 >> Logstash(입력) --> ElasticSearch(출력) 보편화
-#### 2.3 Kibana
+#### 2.3 Kibana - Elasicsearch 에 저장된 데이터 시각화해주는 웹 인터페이스 
 - 웹 프론트엔드 서비스
   - 데이터 검색하고, 시각화하는 오픈소스 프론트엔드 서비스
   - 시각화 담당 `HTML + JS` 엔진
@@ -55,3 +57,5 @@
 - 시간대 일관성이 깨지는 사용
 
 ### 5. 비교 `Kafka` `Beats`
+> [참고자료](https://mygumi.tistory.com/400)
+- ![image](https://user-images.githubusercontent.com/61215550/178900582-0c960e63-e571-4072-8f3b-2b5e55eb3151.png)

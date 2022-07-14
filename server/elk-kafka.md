@@ -56,6 +56,12 @@
 - 커널변수의 불필요한 사용
 - 시간대 일관성이 깨지는 사용
 
-### 5. 비교 `Kafka` `Beats`
+### 5. 비교 `Kafka` 
 > [참고자료](https://mygumi.tistory.com/400)
-- ![image](https://user-images.githubusercontent.com/61215550/178900582-0c960e63-e571-4072-8f3b-2b5e55eb3151.png)
+#### 5.1 Kafka 도입 이유
+- 트래픽 몰리면 `Logstash` `Elasticsearch` 만으로 부하 견디기 힘들어 ㅠ,ㅠ
+
+#### 5.2 Kafka 개념 
+- `Pub-Sub` 모델 가지는 분산 메시징 플랫폼
+- 기존 메시징 시스템처럼 Broker가 Consumer 에게 직접 메시지 전송하는 방식 아님!!
+- Consumer가 Broker로부터 직접 메시지 가져가는 방식

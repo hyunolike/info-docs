@@ -8,7 +8,7 @@
 ### 각 패턴 로직 비교
 |MVC|MVP|MVVM(권장)|
 |-----|-----|----|
-|![image](https://user-images.githubusercontent.com/61215550/180101184-af12881c-33f1-4c4d-9454-7c4593754f20.png)|![image](https://user-images.githubusercontent.com/61215550/180101877-cb397357-af02-4bc5-bf31-b8b339bc2ed2.png)||
+|![image](https://user-images.githubusercontent.com/61215550/180101184-af12881c-33f1-4c4d-9454-7c4593754f20.png)|![image](https://user-images.githubusercontent.com/61215550/180101877-cb397357-af02-4bc5-bf31-b8b339bc2ed2.png)|![image](https://user-images.githubusercontent.com/61215550/180111023-3259a365-b903-42a5-8ce2-335b8523e21b.png)|
 
 ### 1. MVC
 |용어|설명|
@@ -36,11 +36,18 @@
 
 ### 3. MVVM
 > ✔ 동일한 설명 제외 / 추가적인 설명만 작성
-- ✔ AAC(Android Architecture Components) 출시 이후 >> 안드로이트 팀 이 아키텍처 패턴 권장
-
+- ⭐ AAC(Android Architecture Components) 출시 이후 >> 안드로이트 팀 이 아키텍처 패턴 권장
+- `MVVM` `MVP` 둘다 __View__ 계층의 상태와 동작을 추상화하는데 효율적!!!
 
 |용어|설명|
 |-----|-------|
-|Model||
-|Vieww||
-|Presenter||
+|Model|- 데이텃 소스 추상화 담당<br>- `Model` `ViewModel` 함께 작동하여 데이터 가져오고 저장|
+|View|- `ViewModel` 사용자의 작업을 알리는 것|
+|ViewModel|- `View`와 관련된 데이터 스트림 노출|
+
+### 4. 각 아키텍처 비교\
+|Pattern|Android API 종속성|xml 복잡성|단위 테스트 가능성|Follow Modular and single / responsibility principle|
+|----------|--------------------|----------------------|-----------------------------------------------------|
+|`MVC`|High|Low|Difficult|No|
+|`MVP`|Low|Low|Good|Yes|
+|`MVVM`|Low or No dependency|Medium to High|Best|Yes|

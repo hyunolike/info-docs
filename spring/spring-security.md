@@ -21,3 +21,6 @@
 - 스프링 시큐리티의 인증 인가 방식 >> `Principal` == 아이디 / `Credential` == 비밀번호 >> 사용하는 `Credential` 기반의 인증 방식!!! ⭐
   - `Principal`(접근 주체): 보호받는 리소스에 접근하는 대상
   - `Credential`(비밀번호): 리소스에 접근하는 대상의 비밀번호
+
+### 주요 로직
+![image](https://user-images.githubusercontent.com/61215550/180693067-db14e518-f772-418b-ba80-7b504cb58777.png)

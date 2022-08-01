@@ -39,6 +39,7 @@ spring:
 - ![image](https://user-images.githubusercontent.com/61215550/178891435-fde9db86-c5f2-4b58-8d5d-c02345fca238.png)
 
 ### 2. 주의사항
+> [참고자료](https://velog.io/@banjjoknim/DB-Migration-Tool#%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD)
 - 기존에 존재하고 있던, 버전 관리에 반영된 `Script` 파일 >> 절대 수정, 삭제 ❌
 - 새롭게 변경사항 발생 >> 새롭게 `Script` 추가 ✔
 - 문제 발생 시 ㅠ,ㅠ >> `flyway_schema_history` 테이블 직접 변경

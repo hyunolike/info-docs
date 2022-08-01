@@ -5,6 +5,10 @@
 > [참고 자료](https://sabarada.tistory.com/193)
 - DB 형상관리 목적으로 하는 툴
 - ![image](https://user-images.githubusercontent.com/61215550/178890336-db4d3b60-dc37-42ad-ba84-c9373107a683.png)
+- 사용 이유 - [참고자료](https://tecoble.techcourse.co.kr/post/2021-10-23-flyway/)
+  - 운영환경 >> `spring.jpa.hibernate.ddo-auto` 옵션 사용 불가 ㅠ,ㅠ
+  - 직접 DB 접속해 일일이 명령어로 수행... >> 휴먼 에러, 오타, 실수
+  - `Flyway` 사용 시 >> 쉽고 안전하게 변경사항 반영 가능 / 스키마 버전 관리 >> 어떤 변경사항 있는지 한눈에 볼 수 있음
 
 ### 1. 스프링 부트 적용 방법
 #### 1.1 의존성 및 환경 설정

@@ -25,8 +25,8 @@ final class Distance{
   }
   
   Distance converTo(DistanceUnit otherUnit){
-    double conversionRate = unit.getConversionRate(otherUnit); ⭐
-    return new Distance(otherUnit, conversionRate * value);
+    double conversionRate = unit.getConversionRate(otherUnit); 
+    return new Distance(otherUnit, conversionRate * value); ⭐
   }
 }
 ```

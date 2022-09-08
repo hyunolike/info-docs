@@ -2,7 +2,10 @@
 > [참고자료](https://freestrokes.tistory.com/154)
 
 ### 1. 인증서의 파일 포맷 종류
-|포맷|설명|
-|-----|---------|
-|`.pem` (Privacy Enhanced Mail)|개인키, 서버인증서, 루트인증서, 체인인증서 및 SSL 발급 요청시 생성하는 CSR 등에 사용되는 포맷 <br> 거의 대부분의 시스템에 호환되는 표준 포맷이며 `Base64`로 인코딩된 ASCII 텍스트|
+![image](https://user-images.githubusercontent.com/61215550/189014171-17211a05-4c2e-41fd-ab91-f259451eda3f.png)
 
+### 2. 발급 과정
+1. ssl 인증서 발급
+  1. `open ssl`
+  2. `mkcert`
+2. 인증서 적용

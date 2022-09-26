@@ -1,5 +1,6 @@
 ## @JoinColumn - 외래키
-> [참고자료](https://ttl-blog.tistory.com/126)
+> [참고자료](https://ttl-blog.tistory.com/126) <br>
+> [참고자료](https://velog.io/@dhk22/JPA-%EC%96%91%EB%B0%A9%ED%96%A5-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84)
 - **외래키** 지정할 때 사용
 
 

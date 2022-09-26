@@ -31,3 +31,5 @@ private Team team;
 - 테이블의 외래 키가 있는 곳
 - 다대 일 / 일대 다 관계에서는 항상 **다** 쪽 외래키 !! 
 
+### (추가)
+![image](https://user-images.githubusercontent.com/61215550/192175875-9b1f756c-a2d7-4e0c-9cb7-d9c20895f679.png)

@@ -6,10 +6,31 @@
   - IndexedDB
 - ![image](https://user-images.githubusercontent.com/61215550/196570878-c84d4aa0-6e3e-4a12-97f3-90771ef56142.png)
 
+### 참고 자료
+|서버 데이터 저장|클라이언트 데이터 저장|
+|-------------------|------------|
+|![image](https://user-images.githubusercontent.com/61215550/196576307-21ad9e6a-5569-44e0-9223-39cbb824a5da.png)|![image](https://user-images.githubusercontent.com/61215550/196575692-d5da3cc1-0706-4421-8335-e409f309631a.png)|
+
+
 ### IndexedDB
 > [참고자료](https://www.youtube.com/watch?v=mHJDtDM_wHc)
 - [코드자료](https://gist.github.com/egoing/22b86994518b69e7ed938371ca7f8972)
 
+
+
+```
+IndexedDB는 쿠키나 localstorage 처럼 
+웹브라우저에 내장된 데이터베이스 기능입니다. 
+
+이 기능을 이용하면 매우 큰 용량의 데이터를 
+사용자의 브라우저에 저장할 수 있습니다. 
+
+데이터를 서버로 전송하지 않아도 되기 때문에 
+성능을 높이고, 
+비용을 줄이고, 
+보안을 강화할 수 있습니다. 
+
+```
 
 ```html
 <!DOCTYPE html>

@@ -4,6 +4,7 @@
   - 컴마, 특정 문자에 따라 문자열 나누고 싶을 때 >> StringTokenizer 이용 가능
 - ⭐`String`: 문자열을 
 - ⭐`Tokenizer`: 토큰화한다.
+- ![image](https://user-images.githubusercontent.com/61215550/197105257-dd5dd39c-b4b9-4442-a0a5-8b5cbc1df1d5.png)
 
 
 ```java

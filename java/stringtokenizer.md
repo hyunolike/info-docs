@@ -27,3 +27,20 @@ public class Test {
 |boolean hasMoreElements()|element보다 토큰으로 된 메소드를 주로 씀 / 그 위에 있는 거랑 같은 기능|
 |Object nextElement()|문자열이 아닌 객체 리턴|
 |int countTokens()|총 토큰의 개수 리턴|
+
+### 예제 - 각 특정 문자로 구분해서 배열에 저장하기 
+```java
+public class Test {
+    public static void main(String[] args) {
+        String str = "안녕++하,세|요오오오오오";
+        StringTokenizer st = new StringTokenizer(str, "+,|");
+        List sts = new ArrayList();
+
+        while(st.hasMoreTokens()){
+            sts.add(st.nextToken());
+        }
+
+        System.out.println(sts);
+    }
+}
+```

@@ -1,4 +1,5 @@
-## Selenium wait()
+## Selenium wait() 
+> [공식문서](https://www.selenium.dev/selenium/docs/api/javascript/module/selenium-webdriver/lib/until.html)
 - 웹페이지 완전히 로딩되지 않는 문제 발생 시 사용
   - 웹페이지가 다 열리지 않은 상태에서 특정 객체를 찾을 떄 해당 객체 없어서 찾을 수 없다는 에러 발생 시킴 ㅠ,ㅠ
 

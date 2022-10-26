@@ -5,7 +5,7 @@
 
 ### ✔ Selenium 2가지 `Wait` 방법
 - `Implicitly wait`: **정해진 시간** 만틈 충분히 기달리기
-- `Explicitly wait`:** 어떤 조건** 이 만족할 때까지 기다리기
+- `Explicitly wait`: **어떤 조건** 이 만족할 때까지 기다리기
 
 ### 1. `Implicitly wait`
 ```python

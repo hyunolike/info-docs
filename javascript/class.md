@@ -1,4 +1,4 @@
-## Class
+## Class  `updated by 2022/10/31`
 ```javascript
 class MyClass {
   // 여러 메서드를 정의할 수 있음
@@ -74,3 +74,39 @@ class User {
 Object.assign(User.prototype, sayHiMixin)
 new User("hyunho").sayHi()
 ```
+
+### 상속 `extends`
+> extends = 속성 / super() = 메서드
+- 기존의 class의 값을 모두 접근하여 사용 가능해짐 `😛속성`
+- `super()` 사용 `😛메서드`
+  - 하위 클래스에서만 사용하고 싶은 값 있을 떄~
+  - 객체의 부모가 가지고 있는 메서드 호출 가능
+
+### ✔ 클래스 & 객체
+> [참고자료](https://velog.io/@younoah/JS-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%99%80-%EA%B0%9D%EC%B2%B4-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- 연관 있는 데이터들을 한군데 모아 놓은 **컨테이너** 같은 역할 수행
+
+
+```javascript
+// ⭐클래스 선언
+class person {
+  name;
+  age;
+  speak(); 
+}
+
+// ⭐객체 생성
+const hyunho = new Person('hyunho', 28);
+```
+
+#### 클래스
+- template, 즉 특 같은 역할
+- 한번만 선언
+- 클래스 안에 데이터 없음
+- 메모리에 올라가지 않음
+
+#### 객체
+- instance of a class, **클래스의 인스턴스**
+- 1개의 클래스로 여러개의 객체 생성 가능
+- 객체 안에는 데이터 존재
+- 메모리에 올라감 

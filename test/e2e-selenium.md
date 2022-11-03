@@ -45,6 +45,8 @@ npm i -D chromedriver
 
 #### 2-3 셀리니움 RC  vs  웹드라이버
 > 2011년 7월 셀레니움 웹드라이버(셀레니움 2.0) 릴리즈!! 아래 방식 참고해서 합쳐진거야 오오 - **현재의 셀리니움은 웹드라이버랑 통합된 버전**
+
+
 |셀레니움 RC|웹드라이버|
 |---|---|
 |![image](https://user-images.githubusercontent.com/61215550/199641528-ec944ef4-c949-4954-bc39-5a36ea19f437.png)|![image](https://user-images.githubusercontent.com/61215550/199641536-f5e816b4-a270-4e3a-b632-977b13f507bb.png)|

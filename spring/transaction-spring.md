@@ -1,4 +1,23 @@
-## `Transaction`
+## `Transaction` `2022/11/21 추가`
+### (추가) `@Transactional`
+> [참고자료](https://incheol-jung.gitbook.io/docs/q-and-a/spring/transactional)
+#### 1. commit & rollback 
+- `CheckedException` 예외 없을 때 >> commit
+- `UncheckedException` 발생하면 >> rollback 
+#### 2. 우선순위
+1. 클래스 메소드
+2. 클래스
+3. 인터페이스 메소드
+4. 인터페이스
+
+#### 3. 주의 ⭐
+- `@Transactional` + `Spring AOP` 함께 사용! >> 기본적으로 Dynamic Proxy 이용
+  - 인터페이스 기반 동작 >> 인터페이스 없을 경우 트랜잭션 동작 x
+- 인터페이스 없이 동작할려면!
+  - `CGLib(Code Generation Library)`
+- `public method` 에서만 적용!
+  - 프록시 기반이니까!
+---
 - 트랜잭션 ✔ 
   - 여러 작업을 진행하다가 문제가 생겼을 경우 이전 상태로 롤백하기 위해 사용
   - 더 이상 쪼갤 수 없는 최소 작업 단위
@@ -21,4 +40,3 @@
 - 격리수준
 - 제한시간
 - 읽기전용 
-

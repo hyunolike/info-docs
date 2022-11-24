@@ -1,4 +1,4 @@
-## HA (High Availability) 2004년 자료 ..ㅎ
+## HA (High Availability)
 > [참고자료](https://dataonair.or.kr/db-tech-reference/d-lounge/expert-column/?mod=document&uid=54126) <br>
 > [참고자료](http://wiki.hash.kr/index.php/%EA%B3%A0%EA%B0%80%EC%9A%A9%EC%84%B1)
 

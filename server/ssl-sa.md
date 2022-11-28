@@ -1,6 +1,7 @@
-## `HTTPS` `SSL 인증서`
+## `HTTPS` `SSL 인증서` `추가 2022/11/28`
 > [참고자료](https://opentutorials.org/course/228/4894)
 - ![image](https://user-images.githubusercontent.com/61215550/179871015-ff8bf7be-9d83-493d-8280-cf29f2c37ea5.png)
+- ![image](https://user-images.githubusercontent.com/61215550/204198850-6e58d3a6-ee29-424e-81b7-8f6a5fdfc751.png)
 
 ### 1. HTTPS
 #### 1.1 HTTPS VS HTTP

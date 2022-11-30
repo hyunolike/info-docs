@@ -21,6 +21,9 @@
 ## ⭐ 오라클 데이터베이스의 저장 구조 
 ### 1. 데이터처리 🙄
 - ✔ `Oracle`: 오라클 인스턴스 + 데이터베이스
+
+
+
 |기존|개선|
 |----|---|
 |![image](https://user-images.githubusercontent.com/61215550/204711030-f4403c68-8406-4923-800d-7300fe16fbd2.png)|![image](https://user-images.githubusercontent.com/61215550/204711133-cc7865c7-d1f7-4505-b169-5ebd47fbd96a.png)|

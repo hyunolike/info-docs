@@ -1,4 +1,5 @@
 ## WSL `Windows Subsystem for Linux`
+> [참고자료](https://chanzu.tistory.com/88)
 - ![image](https://user-images.githubusercontent.com/61215550/205239387-816c581b-60e3-4a94-9ad2-d2d045454882.png)
 
 

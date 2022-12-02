@@ -1,8 +1,9 @@
-## Vue.js 
+## Vue.js `추가 2022/12/02`
 > [참고자료](https://joshua1988.github.io/web-development/vuejs/vuejs-tutorial-for-beginner/)
 ### 1. 개념잡기
 - ✔ `MVVM` 패턴의 **ViewModel** 레이어에 해당하는 화면단 라이브러리
   - 간단하게! DB 데이터 처리 및 서버 로직 + 뒷단에서 넘어온 데이터 Model에 담아 View 넘겨주기 >> `중간 지점`
+- ![image](https://user-images.githubusercontent.com/61215550/205196176-ad691149-7cbb-48f8-a855-6cd823ec768a.png)
 - ![image](https://user-images.githubusercontent.com/61215550/202589713-6cc05f4a-9bc1-494a-80c3-5a92715f49b0.png)
   - 데이터 바인딩, 화면 단위를 컴포넌트  형태로 제공, 관련 API 지원 >> 목적 ⭐
   - Angular에서 지원하는 **양방향 데이터 바인딩** 제공

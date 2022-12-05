@@ -5,6 +5,8 @@
 ### 준비
 - docker
 - colima (Apple M 칩에서 실행가능하도록 환경 구성)
+  - 실행 `colima start --memory 4 --arch x86_64`
+  - 볼륨 파일 권한 설정 `sudo chown -R 54321:54321 [./colima/oracle-data] 이거는 폴더 위치` 
 - oracle-oci-xe
 
 ### 과정

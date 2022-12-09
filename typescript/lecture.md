@@ -31,7 +31,7 @@
 - 아래와 같이 설정파일 생성
 - ![image](https://user-images.githubusercontent.com/61215550/206327441-35d7251d-04de-4cdb-aecb-f0b5ce293bbd.png)
 #### 4. 만약 app.ts 변경된 부분 자동으로 app.js 로 컴파일되게끔 할려면
-- `tsc -w app.js` 명령어 사용
+- `tsc -w app.ts` 명령어 사용
 - ![image](https://user-images.githubusercontent.com/61215550/206327638-578b5fae-2dd1-47cb-9dae-c4c5f83626a9.png)
 
 ### 타입스크립트 정적 타이핑⭐
@@ -51,4 +51,56 @@ funciton getStudentDetails(studentId: string): void{ 💡 함수도 타입명시
 
 }
 ```
+### 타입으로 사용되는 인터페이스⭐
+- 대문자로 시작!
+- ✔ 인터페이스 타입으로 가지는 값은 인터페이스 구조를 그 값으로 가지도록 강제!
 
+
+```typescript
+interface Student {
+  studentId: number;
+  age: number;
+  name?: string; // ⭐ 선택적 속성 기능!!!
+}
+
+function getStudentDetails(studentId: number): Student {
+  return {
+    studentId: 123,
+    age: 12,
+  };
+}
+```
+
+#### 1. `Readonly` 속성
+- ✔객체 생성시 할당된 프로퍼티의 값을 바꿀수 없음 ㅠ,ㅠ
+
+### 열거형 & 리터럴 타입
+#### 1. Enum 
+- 연관된 아이템들을 함께 묶어서 표현할 수 있는 수단
+
+##### 1-1. 숫자형
+```typescript
+enum GenderType { ⭐
+  Male,
+  Female,
+}
+
+interface Student {
+  readonly studentId: number;
+  age: GenderType;
+}
+
+function getStudentDetails(studentId: number): Student {
+  return {
+    studentId: 123,
+    age: GenderType.Female, ⭐
+  };
+}
+```
+##### 1-2. 문자형
+```typescript
+enum GenderType {
+  Male = 'male',
+  Female = 'female',
+}
+```

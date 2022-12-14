@@ -2,7 +2,7 @@
 > [참고자료](https://joshua1988.github.io/vue-camp/vuex/concept.html)
 - 컴포넌트가 많아졌을 때, 컴포넌트 간의 데이터 전달이나 관리가 어렵기 때문
 - ✔ **데이터 전달** 을 더 명시적! 효율적! 으로 하기 위한 방법 
-
+- ![image](https://user-images.githubusercontent.com/61215550/207471447-c7284841-cc69-4433-9df6-0d1485ce2072.png)
 
 |vuex|
 |--|
@@ -28,6 +28,7 @@
 - Mutations과 유사
 - 임의의 비동기 작업 포함 가능!
 ### 뷰엑스 구조도
+> ⭐ 컴포넌트 > 비동기 로직 `Actions` > 동기 로직 `Mutation` > 상태
 - ![image](https://user-images.githubusercontent.com/61215550/206087826-cd283343-d926-4041-80da-5df9dc885124.png)
 ---
 ### (추가) Vue에서의 데이터 전달 방법 😛
@@ -37,8 +38,3 @@
 |`Props` & `Emit`|`Provide` & `Inject`|`Vuex`|
 |--|--|--|
 |![image](https://user-images.githubusercontent.com/61215550/206087133-152081aa-c2dc-40c7-bfb6-8566eddd78ca.png)|![image](https://user-images.githubusercontent.com/61215550/206087148-a89c3534-bf5f-4c77-ac81-f7ecf4c25f34.png)|![image](https://user-images.githubusercontent.com/61215550/206087178-4e68bc01-1e2a-4a23-ab70-11bb3e5cd0e1.png)|
-
-
-
-
-

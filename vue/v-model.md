@@ -14,6 +14,8 @@ new Vue({
 ```
 
 
+- ![image](https://user-images.githubusercontent.com/61215550/208326100-62bff848-68ba-4091-98c0-4757f5a000eb.png)
+
 ### 동작 원리
 - `v-model` = `v-bind` + `v-on` 
   - `v-bind`: 뷰 인스턴스의 데이터 속성 HTML 요소 연결할 때 사용

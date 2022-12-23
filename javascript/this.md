@@ -1,4 +1,8 @@
-## `this` 개념 & 바인딩
+## `this` 개념 & 바인딩 `업데이트 2022/12/23`
+- ✔ this의 주요 목적
+  - 작성된 코드를 여러 목적으로 재사용하기 위함!
+- 함수 다양 >> 함수별로 this 다르게 해석
+
 > [참고자료](https://oneroomtable.tistory.com/entry/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-this%EB%9E%80-%EB%8C%80%EC%B2%B4-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C)
 - `this` 고정된 값에 바인딩되지 않음
 - 함수가 호출되는 방식에 따라 `동적` 으로 결정 ⭐

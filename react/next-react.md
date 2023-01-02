@@ -1,5 +1,7 @@
 ## Next.js
 > [참고자료](https://gyyeom.tistory.com/56)
+- ![image](https://user-images.githubusercontent.com/61215550/210198353-cc3515b1-20c3-41e3-a37d-dbcd646482d1.png)
+
 
 ### 1. `Framework` vs `Library`
 > 😛 `Next.js` 규칙에 따라 코드 작성

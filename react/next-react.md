@@ -1,6 +1,7 @@
 ## Next.js
 > [참고자료](https://gyyeom.tistory.com/56)
 - ![image](https://user-images.githubusercontent.com/61215550/210198353-cc3515b1-20c3-41e3-a37d-dbcd646482d1.png)
+- ![image](https://user-images.githubusercontent.com/61215550/210198427-2fe319d9-fb3f-4011-af48-26cc041fcede.png)
 
 
 ### 1. `Framework` vs `Library`

@@ -1,5 +1,7 @@
 ## SSH Tunneling
 > [참고자료](https://hbase.tistory.com/328)
+- ![image](https://user-images.githubusercontent.com/61215550/210720037-833ea625-187d-4d84-b4d1-410fb20c2fa1.png)
+
 
 - `sh`: `Secure SHell` 줄임말 / 원격 호스트 접속하기 위해 사용되는 보안 프로토콜
 - ssh >> 원격 호스트로의 접속 + `ssh tunneling`/`ssh port forwarding`

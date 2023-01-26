@@ -13,6 +13,7 @@
 
 ### 뷰 모델간 복잡도 증가 ㅠ,ㅠ
 |뷰|모델|뷰 모델|
+|--|--|--|
 |![image](https://user-images.githubusercontent.com/61215550/214763045-8992a8de-46a4-4d92-8afe-405450853b8c.png)|![image](https://user-images.githubusercontent.com/61215550/214763067-8b60509d-bced-497a-a653-0dbf17997955.png)|![image](https://user-images.githubusercontent.com/61215550/214763116-f1802279-5d1f-438d-a14e-24d4f046956c.png)|
 
 ### 컨트롤러 두기

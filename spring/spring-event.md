@@ -6,5 +6,5 @@
 - ✔ publisher와 이를 구독하는 Observer 사이의 결합도 낮추면서 이벤트를 전달하고자 할 때 사용
 ### 구성 요소 3가지
 - `Event Model`: 이벤트 처리하기 위한 필요 데이터 가지고 있음
-- `Event Publisher`
-- `Event Listener`
+- `Event Publisher`: 이벤트 발생
+- `Event Listener`: 이벤트 받아들이는 거

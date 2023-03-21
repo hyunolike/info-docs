@@ -17,3 +17,6 @@
 
 ### 단점 아닌 장점
 - 내 작업 branch의 각각 commit 마다 conflict 해결
+
+### 추가 설명
+-![image](https://user-images.githubusercontent.com/61215550/226494164-2fef4095-482c-42db-9354-51590ad607f2.png)

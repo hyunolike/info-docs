@@ -1,4 +1,5 @@
 ## Rebase - 🙄한 브랜치에서 다른 브랜치 합치는 방법
+> [[git] git rebase / git reset](https://velog.io/@april_5/git-git-rebase) <br>
 > [참고자료](https://seosh817.tistory.com/240#%EB%--%B-%--%EC%-E%--%EC%--%--%--branch%EC%-D%--%--%EA%B-%--%EA%B-%--%--commit%EB%A-%--%EB%-B%A-%--conflict%EB%A-%BC%--%ED%--%B-%EA%B-%B-%ED%--%B-%EC%--%BC%--%ED%--%-C%EB%-B%A--) <br>
 > [참고자료](https://velog.io/@kwonh/Git-Rebase%EB%9E%80)
 - ✔ 한브랜치에서 다른 브랜치 합치는 방법

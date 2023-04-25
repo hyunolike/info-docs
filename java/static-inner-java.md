@@ -27,3 +27,7 @@ public class Outer_Class {
 - static inner 클래스 >> 외부 참조 안함 !!
 - 메모리 누수 없음
   - 외부 인스턴스 없이 만들 수 있음 >> 외부 참조 없음!
+
+### 팁
+- 일반 static 멤버 / static 메서드 처럼 취급 x
+- ✔ 클래스 초기화해 사용하는 것 같음 !!

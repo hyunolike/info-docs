@@ -31,3 +31,27 @@ public class Outer_Class {
 ### 팁
 - 일반 static 멤버 / static 메서드 처럼 취급 x
 - ✔ 클래스 초기화해 사용하는 것 같음 !!
+
+### 추가 
+#### 😛 static 블록
+> static 블록: 클래스 로딩되고 클래스 변수가 준비된 후 자동으로 실행되는 블록
+
+
+```java
+class Outer {
+	// static 블록
+    static {
+        System.out.println("> Initializing class Outer");
+    }
+	
+    // 생성자
+    Outer() {
+        System.out.println("> Outer 생성자 호출");
+    }
+	
+    // 정적 메소드
+    static void getInstance() {
+        System.out.println("> Outer 클래스의 static 메서드 호출");
+    }
+}
+```

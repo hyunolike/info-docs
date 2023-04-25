@@ -1,3 +1,16 @@
+## `updated by 2023/04/24` JVM의 클래스 로더 `class loader`
+> [참고자료](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-%EC%96%B8%EC%A0%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EB%A1%9C%EB%94%A9-%EC%B4%88%EA%B8%B0%ED%99%94-%EB%90%98%EB%8A%94%EA%B0%80-%E2%9D%93#jvm%EC%9D%98_%ED%81%B4%EB%9E%98%EC%8A%A4_%EB%A1%9C%EB%8D%94_class_loader)
+- ![image](https://user-images.githubusercontent.com/61215550/234148054-619c9219-3e83-43a4-a745-1d5481697316.png)
+- ⭐ 클래스 >> 메모리에 한번에 올리지 않음 !! >> 필요한 경우 동적으로 메모리에 적재하게 된다는 점
+- 위 3가지 방법 >> 클래스 로드(loading)과 초기화(initialization) 다른 작업!
+- ✔ JVM >> 실행될때 모든 클래스 메모리에 올려두지 않음 >> 필요한 클래스를 메모리에 올려 **효율적 관리**
+### 클래스 로드 시점 파악
+- 클래스 로딩: class loader >> `.class` 파일 찾고 JVM에 메모리에 올려놓는 것
+- 클래스 초기화: static 블록, static 멤버 변수의 값 할당하는 것
+  - new 생성자로 클래스를 인스턴스화 해야 클래스 초기화 되는 것 아님
+  - 클래스 초기화 오직 한번만 수행 
+- ⭐ 클래스 초기화 & 클래스 로드 시점과 거의 동시에 일어남
+
 ## JVM 구성요소 - `클래스 로더`
 > [참고자료](https://velog.io/@jifrozen/JVM-%EA%B5%AC%EC%84%B1%EC%9A%94%EC%86%8C-1-%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A1%9C%EB%8D%94)
 ### 구조

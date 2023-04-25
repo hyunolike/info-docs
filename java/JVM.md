@@ -10,4 +10,12 @@
   3. `class Loader` 동적 로딩 통해 필요한 클래스들 로딩 및 링크 >> Runtime Data Area(실질적인 메모리 할당 받아 관리하는 영역) 올ㄹ림
   4. `Runtime Data Area` >> 로딩된 바이트 코드 >> Execution Engine 통해 `해석`
   5. ✔ Execution Engine에 의해 Garbage Collector의 작동와 Thread 동기화 이뤄짐
-
+### 구조
+> 배치 --> 실행
+- ![image](https://user-images.githubusercontent.com/61215550/234150117-37a04056-f7f7-403e-8c12-c86a02d49cdf.png)
+#### 1. 클래스 로더
+- 로드된 바이트 코드 `.class` 엮어서 JVM의 메모리 영역인 Runtime Data Areas에 `배치`
+#### 2. 실행 엔진
+- 클래스 로더를 통해 런타임 데이터 영역에 배치된 바이트 코드를 명령어 단위로 읽어서 `실행`
+#### 3. 런타임 데이터 영역
+- 자바 애플리케이션 실행할 때 사용되는 데이터 `적재`하는 영역

@@ -5,6 +5,7 @@
 ### 준비
 - docker
 - colima (Apple M 칩에서 실행가능하도록 환경 구성) >> `오픈 소스 컨테이너 런타임` ⭐️
+  - `colima`: 무거운 Docker Desktop 대신해 간단한 cli 환경에서 도커 컨테이너들을 실행 할 수 있는 오픈 소스 소프트웨어   
   - 실행 `colima start --memory 4 --arch x86_64`
   - 볼륨 파일 권한 설정 `sudo chown -R 54321:54321 [./colima/oracle-data] 이거는 폴더 위치` 
 - oracle-oci-xe
@@ -38,3 +39,4 @@ services:
 ---
 ### (추가) docker context
 - 배포할 대상(Docker API endpoints)에 이름 붙이고 나중에 사용할 수 있도록 정보를 저장하는 것
+- <img width="827" alt="image" src="https://user-images.githubusercontent.com/61215550/236434361-bb754135-8b10-496c-83d7-72c6994b9829.png">

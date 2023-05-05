@@ -4,7 +4,7 @@
 
 ### 준비
 - docker
-- colima (Apple M 칩에서 실행가능하도록 환경 구성)
+- colima (Apple M 칩에서 실행가능하도록 환경 구성) >> `오픈 소스 컨테이너 런타임` ⭐️
   - 실행 `colima start --memory 4 --arch x86_64`
   - 볼륨 파일 권한 설정 `sudo chown -R 54321:54321 [./colima/oracle-data] 이거는 폴더 위치` 
 - oracle-oci-xe
@@ -34,3 +34,7 @@ services:
 #### 2. 디비 연결 결과
 - <img width="614" alt="image" src="https://user-images.githubusercontent.com/61215550/201349719-2dff0f12-0363-411a-a176-4f97c1d8d8f5.png">
 - <img width="225" alt="image" src="https://user-images.githubusercontent.com/61215550/201350037-05fbd916-7828-4ba4-a7be-3a35f0fc3b17.png">
+
+---
+### (추가) docker context
+- 배포할 대상(Docker API endpoints)에 이름 붙이고 나중에 사용할 수 있도록 정보를 저장하는 것

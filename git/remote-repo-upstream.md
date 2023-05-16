@@ -14,3 +14,5 @@
 ### 😛 Fork
 - 소유자 remote repository & 나 remote repository >> upstream & downstream 관계 형성
 - ![image](https://github.com/hyunolike/info-docs/assets/61215550/cd462c4b-1037-49cf-977f-fdff402d4c52)
+### ⭐⭐ 사용 예시
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/a50ffbbf-a3d3-45ff-871e-e7633a78705f)

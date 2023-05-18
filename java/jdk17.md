@@ -10,3 +10,29 @@
 - 신규 버전 위한 대비
 - 다음 세대 플랫폼 호환 준비 (주된 이유) >> `spring boot 3.0` 부터 JDK 17이상 지원!!
 
+---
+### JDK 17 특징 😛
+> [참고자료](https://youngwonhan-family.tistory.com/entry/Java-17-%EC%A3%BC%EC%9A%94-%ED%8A%B9%EC%A7%95-with-%EC%98%88%EC%A0%9C-%EC%83%98%ED%94%8C-%EC%BD%94%EB%93%9C)
+#### `record`
+- 불변객체 >> setter method 없음
+- toString, equals, hashCode 자동 생성
+
+#### `sealed ... permits`
+- interface의 implement 하는 클래스 제한(`permit`) 가능
+
+#### `Text Blocks`
+- `"""` 
+
+
+```java
+String html = """
+    <html>
+        <body>
+            <p>Hello, World!</p>
+        </body>
+    </html>
+""";
+```
+
+#### `Pattern Matching`
+- Object 객체의 타입을 switch에서 구분 가능

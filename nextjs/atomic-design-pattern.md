@@ -1,5 +1,7 @@
 ## Atomic design pattern
 > [참고자료](https://velog.io/@growingdeveloper/Next.js%EC%97%90%EC%84%9C-Atomic-Design-pattern-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/a2837b5a-3b99-4c7e-884b-f8fc50ebba26)
+
 - Atoms
   - 가장 기본적인 컴포넌트 블록
   - `label` `input` `button`

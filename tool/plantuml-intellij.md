@@ -15,5 +15,5 @@ brew link --overwrite graphviz
 - ![image](https://github.com/hyunolike/info-docs/assets/61215550/d85af140-3a3e-4e2c-bf53-70416885b538)
 - <img width="188" alt="image" src="https://github.com/hyunolike/info-docs/assets/61215550/8437724f-9225-4351-a51e-11853a077f08">
   - 😛 경로 지정 >> Intellij
-  - ![image](https://github.com/hyunolike/info-docs/assets/61215550/d19346b4-aee8-4fa2-9d5f-47357f08374b)
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/d19346b4-aee8-4fa2-9d5f-47357f08374b)
 

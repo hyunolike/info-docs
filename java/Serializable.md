@@ -1,4 +1,38 @@
 ## 자바 직렬화
+### 직렬화, 역직렬화
+> [참고자료](https://kwangkyun-world.tistory.com/entry/Java-%EA%B0%9D%EC%B2%B4-%EC%A7%81%EB%A0%AC%ED%99%94Serialization-%EC%99%80-%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94Deserialization)
+- 자바 데이터 >> `객체`
+- 네트워크
+    - 객체(데이터) 그 자체 전송 불가🙄
+    - `바이트` 형태 변환 필요
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/11834c64-0903-48ff-829c-2516f0daba7c)
+#### 📌직렬화 특징
+- 프로그램 종료 > 객체 데이터(파일 저장) > 재사용 가능
+- 여러 형태 수행 가능
+- 클래스 속성 달라지면 사용 불가
+- 자바(JVM) > 송신부/수신부 운영체제 달라도 상관 없음
+#### 📌 직렬화 조건
+- `java.io.Serializable` 인터페이스 상속받은 객체 (기본 조건)
+    - `JVM` 알려주는 용도
+- `Transient` `Static` 키워드 > 제외 가능
+### ⭐ `JSON` 직렬화, 역직렬화
+- `Jackson` 사용
+
+
+
+```java
+List<Member> memberList = new ArrayList<>();
+memberList.add(new Member(1001, "Kate", 30));
+memberList.add(new Member(1002, "Jason", 23));
+memberList.add(new Member(1003, "Aaron", 35));
+
+ObjectMapper mapper = new ObjectMapper();
+
+// object to json
+mapper.configure(MapperFeature.PROPAGATE_TRANSIENT_MARKER, true);
+mapper.writeValue(new File("test.json"), memberList);
+```
+---
 
 - `implements Serializable` 로 되어있는 `VO(Value Object)` !! ✔ 
   - 잠깐만 ㅋㅋㅋㅋ`VO`? `DTO` 랑 동일한 개념이지만 __READ ONLY__ 속성을 갖는다

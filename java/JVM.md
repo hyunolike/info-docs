@@ -1,3 +1,12 @@
+## JVM `Stack` `Heap`
+- 자바 바이트코드 > 타겟 플랫폼 상관 없이 > JVM 위에서 동작
+  - JVM > 타겟 플랫폼 의존 👀
+  - <img width="656" alt="image" src="https://github.com/hyunolike/info-docs/assets/61215550/0bb3962d-110b-4409-91cd-ca72881df452">
+### 굳이 JVM ???
+- 기존 `C` `C++` > 크로스 컴파일해서 배포하고 있음
+- ⭐️ 자바 > 네트워크 연결된 모든 디바이스 작동하는 것 목적!!!
+  - 디바이스 마다 > 운영체제 / 하드웨어 다름 > 플랫폼 의존하지 않도록 언어 설계 > 👨‍🌾 Java Bytecode, JVM
+
 ## JVM
 > [참고자료](https://inpa.tistory.com/entry/JAVA-%E2%98%95-JVM-%EB%82%B4%EB%B6%80-%EA%B5%AC%EC%A1%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%98%81%EC%97%AD-%EC%8B%AC%ED%99%94%ED%8E%B8#native_method_library)
 - ![image](https://user-images.githubusercontent.com/61215550/234148959-7217e518-b0df-494d-b254-1956c18c2d67.png)

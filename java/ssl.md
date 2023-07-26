@@ -19,3 +19,7 @@ keytool -list -keystore ".\cacerts" (인증서 저장 위치)
 ```
 ### 결과
 ![image](https://github.com/hyunolike/info-docs/assets/61215550/8466b273-6e9d-466f-8e00-b4d6db3e72fc)
+
+### 구조
+![image](https://github.com/hyunolike/info-docs/assets/61215550/32e09b3b-e3e1-4335-bd14-5825c6e82d51)
+

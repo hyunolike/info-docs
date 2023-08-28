@@ -9,7 +9,7 @@ alert(user.address.street); // TypeError: Cannot read property 'street' of undef
 
 
 - 기존 `&&` 사용
-### 1. 옵셔널 체이닝
+### 옵셔널 체이닝
 - `?.`: `undefined` `null` 이면 평가 멈추고 `undefined` 반환
 - 옵셔널 체이닝 남용 금지
   - 꼭 필요한 대상에만 사용!

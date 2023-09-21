@@ -1,5 +1,9 @@
 ## media query `updated by 2023/09/21`
+### 단계별 반응형 개발 예시
+![image](https://github.com/hyunolike/info-docs/assets/61215550/11169ace-1445-4280-85e7-da175c99e720)
+
 ### media query 기기별 해상도 분기점
+> [참고자료](https://ifhead.tistory.com/entry/Web-%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BF%BC%EB%A6%AC-%EA%B8%B0%EA%B8%B0%EB%B3%84-%ED%95%B4%EC%83%81%EB%8F%84-%EB%B6%84%EA%B8%B0%EC%A0%90)
 - ⭐ 필수 > 뷰포트 메타 태그
 
 

@@ -1,3 +1,5 @@
+## (추가) NAT
+> [참고자료](https://run-it.tistory.com/24)
 ## NAT IP
 > [참고자료](https://blog.voidmainvoid.net/319)
 - Network Address Translation

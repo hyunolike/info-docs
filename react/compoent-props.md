@@ -15,4 +15,10 @@ props > react Coomponent > React element
   - 속성
 - `props`
   - 리엑트 컴포넌트의 속성
-- 
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/2e35750a-8fe5-46c1-9bdc-889cf0440e0d)
+- ✔ 특징
+  - `readonly` 읽을 수 만 있어.. 값 변경 안돼 !!
+  - 붕어빵 같은거야 ㅋㅋㅋㅋ
+- ![image](https://github.com/hyunolike/info-docs/assets/61215550/b4518cf9-b1ce-42b6-8367-e6b73f71babf)
+
+

@@ -63,3 +63,26 @@
 - 소품?? 변경되지 않은 경우 > 구성 요소를 다시 렌더링하는 것 건너뛰기
 #### 3-5. `startTransition`
 - ui 차단 x > 상태 업데이트 가능
+---
+### 3. react-dom @18.2.0 ✔
+#### 3-1. `클라이언트 API`
+##### `createRoot`
+- 브라우저 dom 노드 내 > react  구성 요소 표시하는 루트
+  - `createRoot(domNode, options?)`
+  - `root.render(reactNode)`
+  - `root.unmount()`
+- React 구축된 앱 > 일반적으로 루트 구성 요소 `단 한번의 호출`
+##### `hydrateRoot`
+- `hydrateRoot(domNode, reactNode, options?)`
+- 서버 환경 > React에 의해 이미 렌더링된 기존 html > react 첨부 위한 호출
+#### 3-2. `서버 API` > 💡 node 환경에서만 적용
+##### `renderToPipeableStream`
+- `Node.js` 스트림으로 렌더링???
+##### `renderToReadableStream`
+- 읽기 가능한 웹 스트립 > 렌더링
+##### `renderToStaticMarkup`
+- 비대화형 react 트리 > html 문자열 렌더링
+##### `renderToStaticNodeStream`
+- Node.js > 읽기 가능한 스트림으로 렌더링
+##### `renderToString` 
+- React트리 > html 문자열 렌더링

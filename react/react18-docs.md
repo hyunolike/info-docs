@@ -1,8 +1,8 @@
-## ⭐`React 18` 공식문서 보기이이이
+## ⭐`React 18` 공식문서 보기이이이 updated by `2023/10/27`
 > [공식문서](https://react.dev/reference/react)
 
 ### 1. React Hooks 내장함수
-#### 1-1. 종류
+#### 1-1. 종류 (6가지 정도 크게)
 ##### 상태 Hooks
 - 사용자 입력과 같은 정보 기억!
   - `useState`
@@ -21,3 +21,24 @@
   - `useCallback`: 함수 정의를 최적화된 구성 요소에 전달하기 전에 캐시!
 ##### Resource Hooks 
 - 리소스를 상태의 일부로 포함하지 않고도 구성 요소에 리소스 엑세스
+#### 1-2. 다른 Hooks 
+> 최종 출시된것만 파악
+##### a. `useDeferredValue`
+- UI 일부 업데이트 지연!
+- 최상위 컴포넌트에서 사용
+##### b. `useId`
+- 접근성 속성에 전달할 수 있는 고유ID 생성
+##### c. `useImperativeHandle`
+- ref??? 노출된 핸들을 사용자 정의할 수 있다??
+##### d. `useInsertionEffect`
+- `CSS-in-JS` 라이브러리 위한 거
+- 레이아웃 효과가 실행되기 전 DOM 요소 삽입 가능
+##### e. `useLayoutEffect`
+- 성능 저하ㅠㅠ 가능하면 `useEffect` 사용!
+- `useEffect` > 브라우저가 화면을 다시 그리기 전 실행되는 버전
+##### f. `useSyncExternalStore`
+- 외부 저장소 구독 가능!
+  - 외부 저장소 구독
+  - 브라우저 api 구독
+  - 커스텀 훅 로직 추출
+  - 서버 렌더링 지원 추가

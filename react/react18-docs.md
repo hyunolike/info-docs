@@ -51,3 +51,15 @@
 - 개발 초기에 구성 요소의 일반적인 버그 찾기!
 #### 2-4. `<Suspense>`
 - 하위 항목이 로드를 완료할 때까지 대체 표시!
+### 3. 내장 React API
+> [공식문서](https://react.dev/reference/react/apis)
+#### 3-1. `createContext`
+- `useContext` 함께 사용
+#### 3-2. `forwardRef`
+- 구성 요소 > 참조 이용 > dom 노드 상위 구성 요소에 노출
+#### 3-3. `lazy`
+- 처음 렌더링 끝날떄까지 > 구성 요소의 코드 로드 연기!
+#### 3-4. `memo`
+- 소품?? 변경되지 않은 경우 > 구성 요소를 다시 렌더링하는 것 건너뛰기
+#### 3-5. `startTransition`
+- ui 차단 x > 상태 업데이트 가능

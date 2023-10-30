@@ -1,4 +1,5 @@
 ## `immer.js`
+> [공식문서](https://immerjs.github.io/immer/) <br/>
 > [참고자료](https://kyounghwan01.github.io/blog/React/immer-js/#immer-js%E1%84%85%E1%85%A1%E1%86%AB)
 - 리엑트 불변성 유지하는 코드 쉽게 해주는 라이브러리
 - 리엑트 컴포넌트 유지(기본속성) 개념
@@ -20,3 +21,21 @@
   - ![image](https://github.com/hyunolike/info-docs/assets/61215550/54c3590c-ea99-4320-b95b-4f3a51595d33)
   - 원시 타입: Boolean, String, Number, null, undefined, Symbol
   - 참조 타입: Object, Array, Function ⭐
+### 사용 예시
+```js
+dialog: (options) => { 
+    set(
+      produce<DialogStoreType>((state) => {
+        state.open = true;
+        state.state = { ...state.state, ...options };
+      })
+    );
+    return new Promise<void>((resolve, reject) => {
+      set(
+        produce<DialogStoreType>((state) => {
+          state.awaitingPromise = { resolve, reject };
+        })
+      );
+    });
+  },
+```

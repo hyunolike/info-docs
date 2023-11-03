@@ -68,3 +68,7 @@ const data = useMutation(API 호출 함수, 콜백);
 ```
 
 
+- 쿼리 무효화 `invalidation`
+  - add 후 수동적으로 패치해줘야 화면에 보여진다는 불편함 존재 ? 쿼리 무효화를 하자??
+
+

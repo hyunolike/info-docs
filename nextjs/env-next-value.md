@@ -6,7 +6,8 @@
 - (참고) nodejs 환경변수 설정
   - `process.env.변수명`
  ### ⭐`프론트엔드`에서 얻을 수 있는 환경 변수 설정 방법 (추가. next.config.js 설정필요)
-``const nextConfig = {
+```
+const nextConfig = {
   env:{
     API_KEY: process.env.API_KEY
   }

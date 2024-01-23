@@ -31,6 +31,18 @@
 - nodejs런타임 > 브라우저 전용 api / canvas 같으 html요소 제공 > 서버 렌더링 시 실패 처리
 #### 3-1. useEffect
 #### 3-2. typeof window
+```js
+// 지금 코드
+function IndexPage() {
+	const side = typeof window === 'undefined' ? 'server' : 'client';
+    
+    return <div>현재 {side} 사이드 렌더링 중입니다</div>
+}
+
+export default IndexPage;
+window 객체가 정의되지 않으면(undefined이면) 서버 사이드,
+window 객체가 존재하면(undefined가 아니면) 클라이언트 사이드
+```
 #### 3-3. 동적 컴포넌트 로딩 (동적 import)
 - nextjs 제공 기능
 - 컴포넌트를 import 하는 옵션
